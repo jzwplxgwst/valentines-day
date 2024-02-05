@@ -91,6 +91,18 @@ h1 {
         transform: translateY(-20px);
     }
 }
+.container::before {
+    content: ""; /* Create a pseudo-element for decoration */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Place the decorative elements behind the container content */
+    background-image: url('rose.png'); /* Replace 'rose.png' with the path to your rose image */
+    background-repeat: repeat;
+    opacity: 0.1; /* Adjust the opacity as needed */
+}
 
 .container::after {
     content: "";
