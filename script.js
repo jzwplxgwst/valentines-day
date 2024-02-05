@@ -1,7 +1,7 @@
 let clickCount = 0;
 
 function onYesClick() {
-    alert("YAAAAYYY !!! SHE SAID YESSS !!!!");
+    alert("YAAAAYYY !!! SHE SAID YESSS !!!! \n DATE NIGHT THIS WEEKEND !!!!");
     // You can add more actions for the "Yes" button if needed
 }
 
