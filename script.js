@@ -1,8 +1,8 @@
 let clickCount = 0;
 
 function onYesClick() {
+    window.location.href = "yesButton.html";
     alert("YAAAAYYY !!! SHE SAID YESSS !!!! \n DATE NIGHT THIS WEEKEND !!!!");
-    // You can add more actions for the "Yes" button if needed
 }
 
 function onNoClick() {
