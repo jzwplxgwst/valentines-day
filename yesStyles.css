@@ -9,9 +9,6 @@ body {
     height: 100vh;
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
-    position: relative;
-    border: 20px solid transparent; /* Set the width of the border */
-    background-clip: padding-box;
 }
 
 .container {
@@ -21,20 +18,6 @@ body {
     border-radius: 10px;
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
-}
-
-/* Add the heart border */
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: url('heart.png') repeat;
-    opacity: 0; /* Initial opacity set to 0 */
-    animation: fadeHearts 4s ease-in-out infinite, floatAround 6s ease-in-out infinite alternate; /* Combine fade and float animations */
 }
 
 header {
@@ -97,23 +80,5 @@ h1 {
     }
     to {
         opacity: 1;
-    }
-}
-
-@keyframes fadeHearts {
-    0%, 20% {
-        opacity: 0;
-    }
-    20% {
-        opacity: 0.5;
-    }
-}
-
-@keyframes floatAround {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
     }
 }
