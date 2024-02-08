@@ -1,2 +1,2 @@
 ## Valentines Day Proposal
-https://jzwplxgwst.github.io/valentines-day/valentinescard.html
+https://jzwplxgwst.github.io/valentines-day-card/valentinescard.html
